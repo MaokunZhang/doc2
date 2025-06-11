@@ -9,6 +9,7 @@ Before you begin, make sure you have:
 
 - Node.js (^16.20 || ^18.18 || >=20.17).
 
+
 ## Steps to Install Mintlify
 
 **1.** Install the [CLI](https://www.npmjs.com/package/mint):
@@ -30,3 +31,41 @@ npx mint dev
 ```
 
 A local preview of your documentation will be available at `http://localhost:3000`.
+
+## Sync the Github repository to the mintlify dashboard
+
+**1.** Installing the GitHub App:
+
+Install the Mintlify GitHub App through your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
+
+**2.** Setting Up in GitHub:
+
+Select repositories to authorize.
+
+<img
+  src="./images/image1.png"
+  alt="github setting"
+/>
+
+**3.** Setting Up in Mintlify dashboard:
+
+- Click "Settings" in the dashboard.
+
+<img
+  src="./images/image2.png"
+  alt="dashboard"
+/>
+
+- Click on "Git Settings", select Repository and Branch, and finally click "Save changes".
+
+<img
+  src="./images/image3.png"
+  alt="dashboard setting"
+/>
+
+- Now, you can view documentation in the dashboard by clicking "Visit Docs".
+
+<img
+  src="./images/image4.png"
+  alt="dashboard2"
+/>
