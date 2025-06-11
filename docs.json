@@ -1,0 +1,26 @@
+{
+  "theme": "mint",
+  "name": "Maokun's Test",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Maokun's Test",
+        "groups": [
+          {
+            "group": "Set Up",
+            "pages": ["test/test1"]
+          },
+          {
+            "group": "Test 2",
+            "pages": ["test/test2"]
+          }
+        ]
+      }
+    ]
+  }
+}
